@@ -1,0 +1,15 @@
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\CarshopEntitiesLib.deps.json
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\CarshopEntitiesLib.dll
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\ref\CarshopEntitiesLib.dll
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\CarshopEntitiesLib.pdb
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.csprojAssemblyReference.cache
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.AssemblyInfoInputs.cache
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.AssemblyInfo.cs
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.csproj.CoreCompileInputs.cache
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.dll
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\ref\CarshopEntitiesLib.dll
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.pdb
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\CarshopEntitiesLib.runtimeconfig.json
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\bin\Debug\net5.0\CarshopEntitiesLib.runtimeconfig.dev.json
+D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopEntitiesLib\obj\Debug\net5.0\CarshopEntitiesLib.genruntimeconfig.cache
