@@ -287,3 +287,5 @@ __pycache__/
 Carshop/obj/Debug/net5.0/Carshop.csprojAssemblyReference.cache
 CarshopContextLib/obj/Debug/net5.0/CarshopContextLib.csprojAssemblyReference.cache
 CarshopEntitiesLib/obj/Debug/net5.0/CarshopEntitiesLib.assets.cache
+.vscode/launch.json
+.vscode/tasks.json

@@ -2,25 +2,31 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Carshop.Models;
+using Carshop.Shared;
 
 namespace Carshop.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private CarshopDb db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, CarshopDb injectedContext)
         {
             _logger = logger;
+            db = injectedContext;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var model = new HomeViewModel
+            {
+                Voitures = db.Voitures.OrderByDescending(v => v.VoitureID).Take(6).ToList()
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()

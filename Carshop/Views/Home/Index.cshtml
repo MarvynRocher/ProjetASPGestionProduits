@@ -1,8 +1,52 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    string currentItem = "";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model Carshop.Models.HomeViewModel
+<div>
+    <div id="voitures" class="carousel slide" data-ride="carousel" data-interval="3000" data-keyboard="true">
+    <ol class="carousel-indicators">
+        @for (int c=0; c < Model.Voitures.Count; c++)
+        {
+            if(c == 0)
+            {
+                currentItem = "active";
+            }
+            else
+            {
+                currentItem = "";
+            }
+            <li data-target="#voitures" data-slide-to="@c" class="@currentItem"></li>
+        }
+    </ol>
+    <div class="carousel-inner">
+        @for (int c = 0; c < Model.Voitures.Count; c++)
+        {
+            if(c ==0)
+            {
+                currentItem = "active";
+            }
+            else
+            {
+                currentItem = "";
+            }
+            <div class="carousel-item @currentItem">
+                <img class="d-block w-100" src="~/images/@Model.Voitures[c].Image" 
+                alt ="@Model.Voitures[c].Modele" />
+                <div class="carousel-caption d-none d-md-block" style="cursor: pointer;" onclick="javascript:window.location.href='/voitures/details/@Model.Voitures[c].VoitureID'">
+                    <h2>@Model.Voitures[c].Marque @Model.Voitures[c].Modele</h2>
+                    <p>@string.Format("{0:C}", @Model.Voitures[c].Prix)</p>
+                </div>
+            </div>
+        }
+    </div>
+    <a class="carousel-control-prev" href="#voitures" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+    </a>
+    <a class="carousel-control-next" href="#voitures" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+    </a>
+    </div>
 </div>
