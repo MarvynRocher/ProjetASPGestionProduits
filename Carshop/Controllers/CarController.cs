@@ -1,39 +1,40 @@
-using Carshop.Core;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using Carshop.Core.ViewModel;
 using System;
-
+using Carshop.Shared;
+using Carshop.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Carshop.Controllers
 {
     [Route("/voitures")]
     public class CarController : Controller
     {
-        
-        private readonly ICarRepository _carRepository;
 
-        public CarController(ICarRepository carRepository)
+        private CarshopDb db;
+
+        public CarController(CarshopDb injectedContext)
         {
-            _carRepository = carRepository;
+            db = injectedContext;
         }
 
-        public async Task<IActionResult> List()
+        public IActionResult List()
         {
 
-            var carsListViewModel = new CarsListViewModel
+            var carsListViewModel = new CarViewModel
             {
-                Voitures = await _carRepository.GetCars()
+                Voitures = db.Voitures.ToList()
  
             };
             return View(carsListViewModel);
         }
 
         [HttpGet("details/{id}")]
-        public async Task<IActionResult> Details(int id)
+        public IActionResult Details(int id)
         {
 
-            var car = await _carRepository.GetCarById(id);
+            var car = db.Voitures.Where(e => e.VoitureID == id).SingleOrDefault();
 
             return View(car);
         }

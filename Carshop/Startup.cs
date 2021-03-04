@@ -14,8 +14,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.IO;
 using Carshop.Shared;
-using Carshop.Core;
-using Carshop.Core.Persistance;
 
 namespace Carshop
 {
@@ -31,7 +29,7 @@ namespace Carshop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ICarRepository, CarRepository>();
+            
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
