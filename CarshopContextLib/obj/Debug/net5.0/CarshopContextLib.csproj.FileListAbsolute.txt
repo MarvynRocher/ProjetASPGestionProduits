@@ -13,3 +13,18 @@ D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopContextLib\obj\Debug\net5.
 D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.dll
 D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopContextLib\obj\Debug\net5.0\ref\CarshopContextLib.dll
 D:\Projets\ASP.NET Elearning CESI\8_TP\CarShop\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.pdb
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\CarshopContextLib.deps.json
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\CarshopContextLib.dll
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\ref\CarshopContextLib.dll
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\CarshopContextLib.pdb
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\CarshopEntitiesLib.dll
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\bin\Debug\net5.0\CarshopEntitiesLib.pdb
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.csprojAssemblyReference.cache
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.AssemblyInfoInputs.cache
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.AssemblyInfo.cs
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.csproj.CoreCompileInputs.cache
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.csproj.CopyComplete
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.dll
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\ref\CarshopContextLib.dll
+C:\Users\Maxime.VILLERMIN\OneDrive - VINCI Energies\CESI\ASP .NET\CarShop\ProjetASPGestionProduits\CarshopContextLib\obj\Debug\net5.0\CarshopContextLib.pdb

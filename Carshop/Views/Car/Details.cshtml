@@ -1,0 +1,25 @@
+@model Carshop.Shared.Voiture
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>@Model.Marque - @Model.Modele</h2>
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <img class="img-thumbnail" src="@Model.Image" alt="@Model.VoitureID" />
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h4>@Model.Marque</h4>
+        <p><i>@Model.Prix</i></p>
+        <p>@Model.Description</p>
+        <form asp-action="AddToShoppingCart"
+              asp-controller="ShoppingCart"
+              asp-route-cakeId="@Model.VoitureID"
+              method="post">
+
+            <button class="btn btn-primary buy-now-btn">Ajouter au panier</button>
+        </form>
+
+    </div>
+</div>

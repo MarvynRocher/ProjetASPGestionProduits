@@ -1,0 +1,18 @@
+@model Carshop.Core.ViewModel.CarsListViewModel
+
+
+@if (Model.Voitures?.Count() > 0)
+{
+    
+    <div class="row">
+        @foreach (var car in Model.Voitures)
+        {
+            @await Html.PartialAsync("CarView", car);
+        }
+    </div>
+}
+else
+{
+    <h1>Nos modèles</h1>
+    <p>Désolé! Aucune voiture de la catégorie :  n'est en stock. </p>
+}

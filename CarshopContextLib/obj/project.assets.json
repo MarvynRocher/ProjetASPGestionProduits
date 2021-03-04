@@ -1092,32 +1092,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cocac\\.nuget\\packages\\": {}
+    "C:\\Users\\Maxime.VILLERMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\ASP.NET Elearning CESI\\8_TP\\CarShop\\CarshopContextLib\\CarshopContextLib.csproj",
+      "projectUniqueName": "C:\\Users\\Maxime.VILLERMIN\\OneDrive - VINCI Energies\\CESI\\ASP .NET\\CarShop\\ProjetASPGestionProduits\\CarshopContextLib\\CarshopContextLib.csproj",
       "projectName": "CarshopContextLib",
-      "projectPath": "D:\\Projets\\ASP.NET Elearning CESI\\8_TP\\CarShop\\CarshopContextLib\\CarshopContextLib.csproj",
-      "packagesPath": "C:\\Users\\cocac\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\ASP.NET Elearning CESI\\8_TP\\CarShop\\CarshopContextLib\\obj\\",
+      "projectPath": "C:\\Users\\Maxime.VILLERMIN\\OneDrive - VINCI Energies\\CESI\\ASP .NET\\CarShop\\ProjetASPGestionProduits\\CarshopContextLib\\CarshopContextLib.csproj",
+      "packagesPath": "C:\\Users\\Maxime.VILLERMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maxime.VILLERMIN\\OneDrive - VINCI Energies\\CESI\\ASP .NET\\CarShop\\ProjetASPGestionProduits\\CarshopContextLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cocac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Maxime.VILLERMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Projets\\ASP.NET Elearning CESI\\8_TP\\CarShop\\CarshopEntitiesLib\\CarshopEntitiesLib.csproj": {
-              "projectPath": "D:\\Projets\\ASP.NET Elearning CESI\\8_TP\\CarShop\\CarshopEntitiesLib\\CarshopEntitiesLib.csproj"
+            "C:\\Users\\Maxime.VILLERMIN\\OneDrive - VINCI Energies\\CESI\\ASP .NET\\CarShop\\ProjetASPGestionProduits\\CarshopEntitiesLib\\CarshopEntitiesLib.csproj": {
+              "projectPath": "C:\\Users\\Maxime.VILLERMIN\\OneDrive - VINCI Energies\\CESI\\ASP .NET\\CarShop\\ProjetASPGestionProduits\\CarshopEntitiesLib\\CarshopEntitiesLib.csproj"
             }
           }
         }
@@ -1152,7 +1154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
